@@ -17,7 +17,7 @@ def welcome_assignment_answers(question):
        answer = "No"
 
    elif question == "Is it possible to decode a message without a key? - Yes/No":
-       answer = "No"
+       answer = "Yes"
 
    elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
        answer = "No"
@@ -26,7 +26,7 @@ def welcome_assignment_answers(question):
         answer = hashlib.md5(b"NYU Computer Networking").hexdigest()
 
    elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
-       answer = "Yes"
+       answer = "No"
 
    elif question ==  "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric number":
        answer = 5
